@@ -1,0 +1,28 @@
+# dependencies
+/backend/node_modules/
+
+# build output
+/build
+
+# local development env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# production build env variables
+.env.production
+
+# macOS specific files
+.DS_Store
+
+# JetBrains IDE files
+.idea
+*.iml
+*.ipr
+*.iws
+
+# npm and Yarn lockfiles
+package-lock.json
+yarn.lock
+
